@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Atelier Jastip — Curated Personal Shopper</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface":"#fbf9f8","on-primary-fixed":"#1c1b1b","on-secondary-fixed":"#1e1b15","surface-container-high":"#eae8e7","secondary":"#625e56","on-surface":"#1b1c1c","inverse-on-surface":"#f2f0f0","error-container":"#ffdad6","surface-dim":"#dbd9d9","tertiary-container":"#370e00","surface-container-low":"#f5f3f3","on-background":"#1b1c1c","secondary-fixed":"#e9e2d7","inverse-primary":"#c8c6c5","surface-container-highest":"#e4e2e2","primary-fixed-dim":"#c8c6c5","tertiary-fixed":"#ffdbce","surface-container":"#efeded","on-primary-container":"#858383","on-tertiary":"#ffffff","on-tertiary-container":"#c06e4c","background":"#fbf9f8","tertiary":"#000000","secondary-fixed-dim":"#ccc6bc","outline":"#747878","on-error-container":"#93000a","on-tertiary-fixed-variant":"#753416","on-secondary":"#ffffff","inverse-surface":"#303030","primary-fixed":"#e5e2e1","on-tertiary-fixed":"#370e00","surface-container-lowest":"#ffffff","surface-tint":"#5f5e5e","secondary-container":"#e9e2d7","on-primary-fixed-variant":"#474746","on-secondary-fixed-variant":"#4a463f","surface-bright":"#fbf9f8","surface-variant":"#e4e2e2","on-error":"#ffffff","on-surface-variant":"#444748","primary-container":"#1c1b1b","on-primary":"#ffffff","error":"#ba1a1a","outline-variant":"#c4c7c7","primary":"#000000","on-secondary-container":"#68645c","tertiary-fixed-dim":"#ffb598"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-3xl":"4.5rem","gutter-sm":"1rem","space-2xl":"3rem","margin-sm":"1rem","gutter-lg":"2rem","space-2xs":"0.25rem","margin-lg":"3.5rem","margin":"2rem","space-lg":"1.5rem","space-xl":"2rem","gutter":"1.5rem","space-sm":"0.75rem","space-md":"1rem","space-xs":"0.5rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"headline-md":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"metric-number":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"title-md":["Plus Jakarta Sans"]},"fontSize":{"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"500"}],"label-lg":["13px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"600"}],"metric-number":["32px",{"lineHeight":"38px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"title-lg":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"500"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50"><div class="bg-surface-container-high text-on-surface text-body-sm font-body-sm px-4 lg:px-12 py-2 flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap"><span class="material-symbols-outlined text-secondary text-[16px]">flight_takeoff</span><span class="tracking-wide text-secondary"><strong class="text-on-surface font-semibold">Tokyo Spring Batch 04:</strong> Pre-orders close in 2 days (Mar 26) • Free Shipping above Rp 1.500.000</span></div><div class="flex items-center gap-6 shrink-0"><a class="flex items-center gap-1.5 text-secondary hover:text-on-surface transition-colors" href="https://wa.me/" target="_blank"><span class="material-symbols-outlined text-[15px]">chat</span><span>WhatsApp Concierge</span></a><div class="hidden sm:flex items-center gap-1 text-secondary pl-4 border-l border-outline-variant/30"><span class="text-on-surface font-semibold">IDR (Rp)</span><span class="material-symbols-outlined text-[14px]">expand_more</span></div><a class="hidden md:flex items-center gap-1 text-on-tertiary-container hover:underline font-label-md text-label-md tracking-wider uppercase pl-3" data-path="owner-login" href="#">Owner Suite ↗</a></div></div><div class="h-20 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] px-4 lg:px-12"><div class="max-w-7xl mx-auto h-full flex items-center justify-between gap-6"><a class="flex flex-col text-left group" data-path="home" href="#"><span class="font-headline-md text-headline-md tracking-tight uppercase text-on-surface group-hover:text-secondary transition-colors">Atelier Jastip</span><span class="font-label-md text-label-md tracking-wider uppercase text-secondary">Curated Personal Shopper • Tokyo &amp; Paris</span></a><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-on-surface font-semibold"><a aria-current="page" class="tracking-wider uppercase transition-colors text-on-surface font-semibold" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="shop-drops" href="#">Shop Drops</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="upcoming-trips" href="#">Upcoming Trips</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-jastip-works" href="#">How Jastip Works</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="track-order" href="#">Track Order</a></nav><div class="flex items-center gap-3 md:gap-4"><button aria-label="Search" class="w-9 h-9 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><button aria-label="Wishlist" class="relative w-9 h-9 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-on-tertiary-container"></span></button><a class="flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-surface-container-high hover:bg-secondary-container transition-colors text-on-surface" data-path="cart" href="#"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span class="font-label-md text-label-md tracking-wide">Cart (2) • Rp 3.450.000</span></a><a aria-label="Sign In" class="hidden sm:flex items-center" data-path="login" href="#"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></a></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- ACTIVE TRIP HERO BANNER -->
+<section class="relative w-full px-4 lg:px-12 py-space-xl overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<!-- Breadcrumb & Status Ribbon -->
+<div class="flex flex-wrap items-center justify-between gap-4 pb-space-lg mb-space-lg">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+            Curator Live On-The-Ground
+          </span>
+<span class="text-secondary font-label-md text-label-md tracking-widest uppercase">Flight Run #TK-2504</span>
+</div>
+<div class="hidden sm:flex items-center gap-2 text-secondary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px]">pin_drop</span>
+<span>Ginza 6-chome • Omotesando • Daikanyama</span>
+</div>
+</div>
+<!-- Split Hero Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Text Editorial Column -->
+<div class="lg:col-span-7 flex flex-col justify-center">
+<div class="space-y-space-md">
+<div class="inline-flex items-center gap-2 font-label-md text-label-md uppercase tracking-widest text-secondary">
+<span class="w-8 h-[1px] bg-secondary"></span>
+<span>Curated Personal Shopper Sprint</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-medium">
+              Tokyo Spring <span class="italic font-normal">Curation</span> 2025
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+              Exclusive boutique releases, Ginza flagships, and artisanal pantry discoveries hand-carried directly to your doorstep in Indonesia. Complete with physical retail receipts &amp; zero transit damage.
+            </p>
+</div>
+<!-- Quick Action Buttons -->
+<div class="mt-space-xl flex flex-wrap items-center gap-4">
+<a class="px-7 py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider transition-all duration-300 shadow-md hover:bg-neutral-800 flex items-center gap-2" href="#tokyo-catalog">
+<span>Explore Tokyo Catalog</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<a class="px-7 py-3 rounded-full bg-surface-container-high text-on-surface font-label-lg text-label-lg uppercase tracking-wider transition-all duration-300 hover:bg-secondary-fixed" href="#how-it-works">
+              How Jastip Works
+            </a>
+</div>
+<!-- Micro Proof Line -->
+<div class="mt-space-lg flex items-center gap-6 pt-space-md text-secondary text-body-sm font-body-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface">inventory_2</span>
+<span>Luggage Hand-Carry Only</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface">receipt_long</span>
+<span>Original Paper Invoices</span>
+</div>
+</div>
+</div>
+<!-- Live Trip Telemetry Card (Editorial Ticket Motif) -->
+<div class="lg:col-span-5">
+<div class="relative bg-surface-container-lowest rounded-xl p-space-lg shadow-xl">
+<!-- Subtle Top Accent -->
+<div class="absolute -top-3 left-6 px-3 py-1 bg-primary text-on-primary rounded-full font-label-md text-label-md tracking-widest uppercase shadow-sm">
+              Trip Dispatch Card
+            </div>
+<div class="pt-2">
+<!-- Route & Details -->
+<div class="flex items-start justify-between pb-space-md">
+<div>
+<span class="font-label-md text-label-md tracking-widest uppercase text-secondary block">Destination Sector</span>
+<p class="font-title-lg text-title-lg text-on-surface font-semibold">Tokyo Batch 04</p>
+<p class="font-body-sm text-body-sm text-secondary">Ginza • Shibuya • Daikanyama</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface text-[20px]">flight</span>
+</div>
+</div>
+<!-- Departure & PO Closure Grid -->
+<div class="grid grid-cols-2 gap-4 py-space-sm bg-surface-container-low rounded-lg p-3 my-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary block">PO Closure</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">26 Mar, 23:59</span>
+<span class="font-body-sm text-body-sm text-secondary block">WIB (Strict Cutoff)</span>
+</div>
+<div>
+<span class="font-label-md text-label-md uppercase text-secondary block">Flight Return</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">28 Mar 2025</span>
+<span class="font-body-sm text-body-sm text-secondary block">JL725 HND ➔ CGK</span>
+</div>
+</div>
+<!-- Real-time Countdown Timer -->
+<div class="my-space-md">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+                    Pre-Order Window Closes In
+                  </span>
+<span class="font-label-md text-label-md text-on-tertiary-container font-semibold">Active Run</span>
+</div>
+<div class="grid grid-cols-4 gap-2 text-center" id="countdown-timer">
+<div class="bg-surface-container-high rounded p-2">
+<span class="font-metric-number text-metric-number block text-on-surface" id="timer-days">02</span>
+<span class="font-label-md text-label-md uppercase text-secondary">Days</span>
+</div>
+<div class="bg-surface-container-high rounded p-2">
+<span class="font-metric-number text-metric-number block text-on-surface" id="timer-hours">14</span>
+<span class="font-label-md text-label-md uppercase text-secondary">Hours</span>
+</div>
+<div class="bg-surface-container-high rounded p-2">
+<span class="font-metric-number text-metric-number block text-on-surface" id="timer-mins">38</span>
+<span class="font-label-md text-label-md uppercase text-secondary">Mins</span>
+</div>
+<div class="bg-surface-container-high rounded p-2">
+<span class="font-metric-number text-metric-number block text-on-surface" id="timer-secs">45</span>
+<span class="font-label-md text-label-md uppercase text-secondary">Secs</span>
+</div>
+</div>
+</div>
+<!-- Luggage Quota Gauge -->
+<div class="pt-space-sm">
+<div class="flex items-center justify-between text-body-sm font-body-sm mb-1.5">
+<span class="text-secondary font-label-md text-label-md uppercase">Luggage Quota Allocated</span>
+<span class="text-on-surface font-semibold font-label-md text-label-md">78% Full (11.5 kg Left)</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-500" style="width: 78%;"></div>
+</div>
+<p class="font-body-sm text-body-sm text-secondary mt-2 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">lock</span>
+                  Baggage slots strictly capped to preserve luxury packaging condition.
+                </p>
+</div>
+<!-- Instant WhatsApp Trigger -->
+<div class="mt-space-md pt-space-sm">
+<a class="w-full py-2.5 rounded-full bg-secondary-container text-on-secondary-container hover:bg-surface-container-high font-label-md text-label-md uppercase tracking-wider text-center block transition-colors flex items-center justify-center gap-2" href="https://wa.me/" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Direct VIP Concierge via WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- VALUE PILLARS (TRUST & LEGITIMACY) -->
+<section class="w-full px-4 lg:px-12 py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-1">100% Boutique Authentic</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Every piece is sourced directly inside official brand flagships and department stores. Physical paper invoice and store receipt handed to you.
+            </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md tracking-wider uppercase text-on-surface-variant font-semibold">Store Invoices Included</span>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[20px]">luggage</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-1">Hand-Carried Safety</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Transported in rigid shockproof luggage and personal cabin bags. Zero crushed boxes, zero dropped courier parcels, zero missing items.
+            </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md tracking-wider uppercase text-on-surface-variant font-semibold">White-Glove Transit</span>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[20px]">policy</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-1">Bea Cukai Compliant</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Cleared legally via customs personal baggage declaration (ECD). All applicable luxury duties and Indonesian import levies handled transparently.
+            </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md tracking-wider uppercase text-on-surface-variant font-semibold">Legally Cleared &amp; Taxed</span>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface mb-space-md">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-1">Paxel &amp; JNE YES Delivery</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Dispatched swiftly across Jakarta, Surabaya, Bali, Medan, and Bandung using temperature-controlled cold chain or guaranteed next-day courier.
+            </p>
+</div>
+<span class="mt-space-md font-label-md text-label-md tracking-wider uppercase text-on-surface-variant font-semibold">Insurance &amp; Real-time GPS</span>
+</div>
+</div>
+</div>
+</section>
+<!-- FEATURED HAND-PICKED DROPS (TOKYO EXCLUSIVE GRID) -->
+<section class="w-full px-4 lg:px-12 py-space-2xl bg-surface" id="tokyo-catalog">
+<div class="max-w-7xl mx-auto">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-space-xl">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-1">Tokyo Spring Batch 04</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Curated Drops &amp; Limited Inventory</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-sm">
+          Strict unit quotas allocated per run to match checked baggage limits. First confirmed, first sourced.
+        </p>
+</div>
+<!-- Category Filter Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto pb-4 mb-space-xl no-scrollbar">
+<button class="px-5 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider shrink-0 transition-colors">
+          All Highlights
+        </button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface hover:bg-secondary-container font-label-md text-label-md uppercase tracking-wider shrink-0 transition-colors">
+          Boutique Fashion
+        </button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface hover:bg-secondary-container font-label-md text-label-md uppercase tracking-wider shrink-0 transition-colors">
+          J-Beauty Cult Hits
+        </button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface hover:bg-secondary-container font-label-md text-label-md uppercase tracking-wider shrink-0 transition-colors">
+          Gourmet &amp; Snacks
+        </button>
+<button class="px-5 py-2 rounded-full bg-surface-container-high text-on-surface hover:bg-secondary-container font-label-md text-label-md uppercase tracking-wider shrink-0 transition-colors">
+          Limited Editions
+        </button>
+</div>
+<!-- Product Showcase Cards (4 Items Grid) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Item 1: Issey Miyake Bao Bao -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div class="relative">
+<div class="aspect-[4/5] w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Issey Miyake Bao Bao Lucent Matte 6x6 geometric tote bag in charcoal gray, professionally shot on a neutral cream stone plinth with soft architectural shadows, studio luxury lighting, tactile minimal aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA17piGaIJaX56pcp4jbDHZv_9-Ya4mb5RFGrJB53BKQhZoXxlOCqPTLGbES8LnEWZU0RSzRV6jLitnSZLyNwVMgsymm1iSbzwjyB2d1wnS7srfolqsfgNBujw1ka38pxz_3Q8yIySkb9BJvPGRILtfN2PnK1wxwCD7SFa3bbspYiUFQtO-vGJ_RCUaA5gsqOEVoeSJjYe7t-BpDNOeiog0HJi3IyW5WFoIqgCbVCGzfO3O7BSK8tUHZA"/>
+</div>
+<!-- Boutique Tag -->
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md tracking-wider uppercase shadow-xs">
+              Ginza Exclusive
+            </span>
+<!-- Slot Indicator -->
+<span class="absolute bottom-3 right-3 px-2 py-0.5 rounded-full bg-primary/90 text-on-primary font-label-md text-label-md">
+              3/3 Slots Left
+            </span>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-grow">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary block mb-1">Issey Miyake</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold line-clamp-2 mb-2">
+                Bao Bao Lucent Matte 6x6 Tote (Charcoal Edition)
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-3">
+                Original Tokyo Flagship Price: ¥58,000
+              </p>
+</div>
+<div class="pt-2">
+<div class="flex items-baseline justify-between mb-3">
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Rp 6.850.000</span>
+<span class="font-label-md text-label-md text-secondary">All-In Jakarta</span>
+</div>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-neutral-800 transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+<span>Reserve PO Slot</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2: Le Labo Gaiac 10 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div class="relative">
+<div class="aspect-[4/5] w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Le Labo Gaiac 10 Tokyo City Exclusive perfume bottle 50ml, glass flacon with textured vintage paper label, warm cedarwood background with subtle Japanese sunbeam illumination, luxury apothecary minimalist design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIuFHZK3cAy-J48t7ig52QHRUcv2foHW91Uph1ZzpyQGkca3smSLJ1dJYfc-ZtuZl1NuvVh7WqM5xLTQWdJRxQ1D5IEHHuQUtgbF9MFUyI6cRY19W8ymffuq8LGtzec2MTCaUoHhgf0pk-vrESy5htEySLxLxtaUGj8DfHgx-V6h5uLHLmlcT9Hm8QUo4kfBzYIlza8dDbaYOArRBYucuI0AjtdyQf1wTkNC0tiqx9XmqDvr20WvpTQg"/>
+</div>
+<!-- Boutique Tag -->
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md tracking-wider uppercase shadow-xs">
+              Daikanyama Laboratory
+            </span>
+<!-- Slot Indicator -->
+<span class="absolute bottom-3 right-3 px-2 py-0.5 rounded-full bg-on-tertiary-container text-on-tertiary font-label-md text-label-md">
+              2 Bottles Left
+            </span>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-grow">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary block mb-1">Le Labo Tokyo</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold line-clamp-2 mb-2">
+                Gaiac 10 Tokyo City Exclusive (50ml EDP)
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-3">
+                Original Tokyo Lab Price: ¥45,100
+              </p>
+</div>
+<div class="pt-2">
+<div class="flex items-baseline justify-between mb-3">
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Rp 5.200.000</span>
+<span class="font-label-md text-label-md text-secondary">Custom Labeling</span>
+</div>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-neutral-800 transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+<span>Reserve PO Slot</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3: Shiseido Fino Hair Mask -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div class="relative">
+<div class="aspect-[4/5] w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Shiseido Fino Premium Touch Hair Mask red jar with silver metallic lid, photographed cleanly on pristine white linen with soft natural morning light, editorial beauty product photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0I0_5RU8TmQNc6XSMp5YO0w6R3uBfBvoz3ySrcD6NKY2TdGhmYm9z4ZcEQOrMyQ2oPoTAZJ46J9mDCifVbm_6whOVhUeXj-klD8MN8y_7_v0aIbWYmVs7rJ2BRgd60fKLcmTtzjSZqA1a0NbMhFDpwY_rimEStFAdwP-cx4bajg8hOzB3CSJZFI5h_AZ5CzB-bgtrG_FKDqmuNlobxmlYRFtM2YDpRmvBCGmVDiPupq5k3Rm8aZBGLA"/>
+</div>
+<!-- Boutique Tag -->
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md tracking-wider uppercase shadow-xs">
+              Bestseller
+            </span>
+<!-- Slot Indicator -->
+<span class="absolute bottom-3 right-3 px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+              18/25 Slots Left
+            </span>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-grow">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary block mb-1">Shiseido Japan</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold line-clamp-2 mb-2">
+                Fino Premium Touch Hair Treatment Mask 230g
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-3">
+                Original Tokyo Pharmacy Price: ¥980
+              </p>
+</div>
+<div class="pt-2">
+<div class="flex items-baseline justify-between mb-3">
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Rp 185.000</span>
+<span class="font-label-md text-label-md text-secondary">Min. 2 pcs</span>
+</div>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-neutral-800 transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+<span>Reserve PO Slot</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 4: Tokyo Banana Limited -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between">
+<div class="relative">
+<div class="aspect-[4/5] w-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Tokyo Banana Grapestone Limited Station Edition yellow gift box packaging with elegant Japanese paper wrapping, staged alongside fresh matcha ceramic bowl, soft pastel aesthetic photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBkMHpYIvYKztH78zTVib5AzwAJfKNLLse_6c1UpvovzJmPQ2y2oTFnInzgcxkZfCTdGN0hQwZIrZFk1x6P_FkTLcLO-XaFFhg2tgTI-e1sr5bPZuYAQ10vSlyKs8sY0SIojA-HYD2uiHCRBXPYcw7C3zZfr3WtSY4N-AgTFimI6hFptKdYXt1FIeRlIK4RYRXokibOfR_CUWxd_EMCAekrQfOioW_kEq5qYT6Dkssvp21Qk-PJ3BxUw"/>
+</div>
+<!-- Boutique Tag -->
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md tracking-wider uppercase shadow-xs">
+              Fresh Batch
+            </span>
+<!-- Slot Indicator -->
+<span class="absolute bottom-3 right-3 px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+              10/10 Slots
+            </span>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-grow">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary block mb-1">Grapestone Tokyo</span>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold line-clamp-2 mb-2">
+                Tokyo Banana Limited Station Edition (8 pcs Box)
+              </h3>
+<p class="font-body-sm text-body-sm text-secondary mb-3">
+                Original Tokyo Station Price: ¥1,296
+              </p>
+</div>
+<div class="pt-2">
+<div class="flex items-baseline justify-between mb-3">
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Rp 245.000</span>
+<span class="font-label-md text-label-md text-secondary">Paxel Cold Delivery</span>
+</div>
+<button class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-neutral-800 transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+<span>Reserve PO Slot</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- View All Drops Link -->
+<div class="mt-space-xl text-center">
+<a class="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-surface-container-high hover:bg-secondary-container text-on-surface font-label-lg text-label-lg uppercase tracking-wider transition-colors" href="#">
+<span>View All 42 Items in Tokyo Catalog</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE 4-STEP HOW JASTIP WORKS -->
+<section class="w-full px-4 lg:px-12 py-space-2xl bg-surface-container-low" id="how-it-works">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-2">Concierge Protocol</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-medium">How Atelier Jastip Works</h2>
+<p class="font-body-lg text-body-lg text-secondary mt-2">
+          Transparent, insured, and deeply personal. From Japanese department store counters straight into your hands in Jakarta.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-secondary">01</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">shopping_cart_checkout</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-2">Browse &amp; Reserve PO</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Select items from our active drop list or submit a custom product link before the strict batch closing deadline (26 March, 23:59 WIB). Pay 50% deposit to lock your luggage quota.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary font-label-md text-label-md uppercase">
+            Phase 1 • Pre-Trip Booking
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-secondary">02</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">storefront</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-2">Clara Shops In Tokyo</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Our lead curator visits boutiques in Ginza, Omotesando, and Shinjuku. Clients receive private Instagram and WhatsApp video proofs, size confirmation, and live store stock alerts.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary font-label-md text-label-md uppercase">
+            Phase 2 • Real-Time Sourcing
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-secondary">03</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">airlines</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-2">Flight &amp; Customs Clear</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              All acquisitions are packed inside shock-absorbing Rimowa luggage and hand-carried on Japan Airlines flights. Declared through Indonesian Customs (Bea Cukai ECD) with zero legal hassle.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary font-label-md text-label-md uppercase">
+            Phase 3 • Hand-Carry &amp; Import
+          </div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-headline-md text-headline-md font-semibold text-secondary">04</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">mark_email_read</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold mb-2">Express Doorstep Delivery</h3>
+<p class="font-body-sm text-body-sm text-secondary leading-relaxed">
+              Final settlement payment. Dispatched within 24 hours of landing via Paxel Cold-Chain (for gourmet &amp; snacks) or JNE YES / Grab Express Instant across Greater Jakarta &amp; Indonesia.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary font-label-md text-label-md uppercase">
+            Phase 4 • Final Fulfillment
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- UPCOMING TRIPS CALENDAR TEASER -->
+<section class="w-full px-4 lg:px-12 py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-space-xl">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-1">Global Procurement Schedule</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Upcoming Sourcing Trips</h2>
+</div>
+<p class="font-body-md text-body-md text-secondary max-w-sm">
+          Reserve early to ensure slot availability. We restrict total passenger luggage weight to safeguard luxury items.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Trip 1: Tokyo Current -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wide">
+                Current Batch
+              </span>
+<span class="font-label-md text-label-md font-semibold text-on-tertiary-container uppercase tracking-wider">
+                Open For PO
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Tokyo Spring Sprint</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">Ginza, Shinjuku, Daikanyama &amp; Roppongi</p>
+<div class="space-y-2 py-3 bg-surface-container-low rounded-lg p-3 text-body-sm font-body-sm">
+<div class="flex justify-between">
+<span class="text-secondary">Travel Dates:</span>
+<span class="font-semibold text-on-surface">Mar 28 – Apr 02, 2025</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">PO Deadline:</span>
+<span class="font-semibold text-on-surface">Mar 26, 23:59 WIB</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">Baggage Quota:</span>
+<span class="font-semibold text-on-surface">78% Taken</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-2">
+<a class="w-full py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider text-center block hover:bg-neutral-800 transition-colors" href="#tokyo-catalog">
+              Explore Active Catalog
+            </a>
+</div>
+</div>
+<!-- Trip 2: Seoul Next -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wide">
+                Next Expedition
+              </span>
+<span class="font-label-md text-label-md font-semibold text-secondary uppercase tracking-wider">
+                Waitlist Open
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Seoul K-Beauty &amp; Fashion</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">Hannam-dong, Seongsu-dong &amp; Apgujeong</p>
+<div class="space-y-2 py-3 bg-surface-container-low rounded-lg p-3 text-body-sm font-body-sm">
+<div class="flex justify-between">
+<span class="text-secondary">Travel Dates:</span>
+<span class="font-semibold text-on-surface">Apr 20 – Apr 25, 2025</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">PO Deadline:</span>
+<span class="font-semibold text-on-surface">Apr 17, 23:59 WIB</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">Focus Sourcing:</span>
+<span class="font-semibold text-on-surface">Tamburins, Gentle Monster, Mardi</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-2">
+<a class="w-full py-2.5 rounded-full bg-surface-container-high hover:bg-secondary-container text-on-surface font-label-md text-label-md uppercase tracking-wider text-center block transition-colors" href="https://wa.me/" target="_blank">
+              Join Seoul Waitlist
+            </a>
+</div>
+</div>
+<!-- Trip 3: Paris Preview -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wide">
+                Summer 2025
+              </span>
+<span class="font-label-md text-label-md font-semibold text-secondary uppercase tracking-wider">
+                Previewing
+              </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Paris Haute Couture &amp; Fragrance</h3>
+<p class="font-body-sm text-body-sm text-secondary mb-4">Rue Saint-Honoré, Le Marais &amp; Vendôme</p>
+<div class="space-y-2 py-3 bg-surface-container-low rounded-lg p-3 text-body-sm font-body-sm">
+<div class="flex justify-between">
+<span class="text-secondary">Travel Dates:</span>
+<span class="font-semibold text-on-surface">Jun 10 – Jun 18, 2025</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">PO Deadline:</span>
+<span class="font-semibold text-on-surface">Jun 05, 23:59 WIB</span>
+</div>
+<div class="flex justify-between">
+<span class="text-secondary">Focus Sourcing:</span>
+<span class="font-semibold text-on-surface">Hermès, Goyard, Celine, Diptyque</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-2">
+<a class="w-full py-2.5 rounded-full bg-surface-container-high hover:bg-secondary-container text-on-surface font-label-md text-label-md uppercase tracking-wider text-center block transition-colors" href="https://wa.me/" target="_blank">
+              Pre-Register Interest
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INSTAGRAM / LIVE SOURCING FEED PREVIEW -->
+<section class="w-full px-4 lg:px-12 py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-lg gap-4">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary block mb-1">Live Instagram Stories</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">On-The-Ground Shopping Snapshots</h2>
+</div>
+<a class="flex items-center gap-2 font-label-md text-label-md uppercase tracking-wider text-on-surface hover:text-secondary transition-colors" href="https://instagram.com" target="_blank">
+<span>@atelier.jastip</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- Polaroid-Style Mosaic Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<!-- Snapshot 1 -->
+<div class="bg-surface-container-lowest p-2.5 rounded-xl shadow-xs hover:shadow-md transition-shadow">
+<div class="aspect-square w-full rounded-lg overflow-hidden mb-2 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Ginza Mitsukoshi department store luxury ground floor entrance in Tokyo, pristine architectural marble counters, elegant shoppers in trench coats, soft atmospheric glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQx2tQj5jjJfCKgbA47rGHNSSUT92RRK3P9cvbOiwEBGRqeytd41FNbH91PaZ6hZX5wlljAkpRnrNgcnKJhgC_jhnPeAaLEGMxZ6uspsXmFkD12vB_eHUKmiL97kEO8qWBvpM5d3VpV95N8K8nPTdLuVj4b--B5UZwt1s7tSjnVxur7_raBfP8hYcYTotYXglMtMkMKOzapOtXX29IvMc_acL8797nV_AffuYWbV447YaQCohTGEoOQg"/>
+</div>
+<p class="font-label-md text-label-md uppercase text-on-surface font-semibold truncate">Ginza Mitsukoshi</p>
+<p class="font-body-sm text-body-sm text-secondary truncate">Cosmetics Hall Dispatch • 10:45 JST</p>
+</div>
+<!-- Snapshot 2 -->
+<div class="bg-surface-container-lowest p-2.5 rounded-xl shadow-xs hover:shadow-md transition-shadow">
+<div class="aspect-square w-full rounded-lg overflow-hidden mb-2 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tokyo Omotesando Yoshida Porter flagship store interior, neat rows of Japanese nylon luggage, minimalist raw concrete walls, warm downlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7fPEHj8ImH6kXCH1XwcQKTq05yuo_EcZ5DpdyfUSvmOd3M2jnj9mHaLgIxtFzocuTcuM_NWiZdfLX0kC4oDflVILGeL1aE1FK1Nv7i-rrSsrXAS3Soz6kbIfJK3F_UQzRPqnB2Lam86xXAPHhtPpJUpNUzJlmBx4auvjfizVmzaF9gF-TE-FD4nDnZZT-Vnr3_Ea_xEwT_oVc373FxajG3LWPRuRDAGwDBH6NYEEPDLpNjb8duYWAVw"/>
+</div>
+<p class="font-label-md text-label-md uppercase text-on-surface font-semibold truncate">Porter Omotesando</p>
+<p class="font-body-sm text-body-sm text-secondary truncate">Luggage Restock Check • 13:20 JST</p>
+</div>
+<!-- Snapshot 3 -->
+<div class="bg-surface-container-lowest p-2.5 rounded-xl shadow-xs hover:shadow-md transition-shadow">
+<div class="aspect-square w-full rounded-lg overflow-hidden mb-2 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tokyo Station gourmet food hall, vibrant artisanal pastry displays, boxed limited Japanese sweets and seasonal confections, clean warm photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUgM62LL8AZ4Lu5s0qM10Nuj0GcYbdxO532xMQZ1VkzkXHtiYMJ1vJkK_uCx_xY3wAJbmsG-rovBvvZsQXQdCDNJ7BWJnp7VIbtHJCJ1FR-3S9BwZmwdIZwOdOlFu-mme4A997JVJrhw2ux2bjEw8f4Tnil-zxkh7VuYB7nyRV7TWjk9oOXX-loNDB40MunlMsODmeK_CjKDJJII8mnr5yLfh6FzDTNWhhOpLtjVqbO1vRIe0zcjVj2w"/>
+</div>
+<p class="font-label-md text-label-md uppercase text-on-surface font-semibold truncate">Tokyo Station DFS</p>
+<p class="font-body-sm text-body-sm text-secondary truncate">Fresh Confection Batch • 16:00 JST</p>
+</div>
+<!-- Snapshot 4 -->
+<div class="bg-surface-container-lowest p-2.5 rounded-xl shadow-xs hover:shadow-md transition-shadow">
+<div class="aspect-square w-full rounded-lg overflow-hidden mb-2 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Haneda International Airport luxury departure lounge with silver Rimowa trunk luggage ready for boarding, runway view through glass window at twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcnqUm5s_GHbuXAxGANNEhmeQERpCUKzDN1ty1ShSODlZ6j0w99KMDpi6HpFgU22_8GV7WBHrZHfoI76PeKAwRtFZplvOR31KAbS1cqLW6vhCIY9O_InGU-Otytk4dT956Dsdf8rY_sRmxHsgUOA94kz_B8Ex3DpzjtBgOINyewsM0FbVNs8vTuydkHedrA7fdE0KCpiz3rEzTcRJSjYsZ795Ll9kuJkeQ077kvAe3QU1hJGWcdOC4HQ"/>
+</div>
+<p class="font-label-md text-label-md uppercase text-on-surface font-semibold truncate">Haneda Airport T3</p>
+<p class="font-body-sm text-body-sm text-secondary truncate">Customs Manifest Prep • 19:30 JST</p>
+</div>
+</div>
+</div>
+</section>
+<!-- VIP REQUEST BANNER (CUSTOM SOURCING CTA) -->
+<section class="w-full px-4 lg:px-12 py-space-2xl bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="bg-primary text-on-primary rounded-xl p-8 lg:p-14 shadow-xl relative overflow-hidden">
+<!-- Subtle Background Glow -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-neutral-800/50 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-800 text-neutral-300 font-label-md text-label-md uppercase tracking-widest mb-4">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>Bespoke Concierge Sourcing</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-medium tracking-tight mb-4 text-on-primary">
+            Looking for something specific that is not on our catalog?
+          </h2>
+<p class="font-body-lg text-body-lg text-neutral-300 mb-space-xl leading-relaxed">
+            Send us any product screenshot, official brand web URL, or Instagram link from Japan, Korea, or France. Our curator will verify boutique stock availability, calculate all-in Jakarta landing cost, and hold your personal luggage allocation.
+          </p>
+<div class="flex flex-wrap items-center gap-4">
+<a class="px-8 py-3.5 rounded-full bg-surface text-on-surface font-label-lg text-label-lg uppercase tracking-wider hover:bg-neutral-200 transition-colors flex items-center gap-2 shadow-sm" href="https://wa.me/" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Submit Custom Request via WhatsApp</span>
+</a>
+<span class="text-neutral-400 font-body-sm text-body-sm">Average quotation response within 30 minutes</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple Countdown Timer Micro-Interaction
+  (function () {
+    const countdownTarget = new Date();
+    countdownTarget.setDate(countdownTarget.getDate() + 2);
+    countdownTarget.setHours(countdownTarget.getHours() + 14);
+    countdownTarget.setMinutes(countdownTarget.getMinutes() + 38);
+
+    function updateTimer() {
+      const now = new Date().getTime();
+      const difference = countdownTarget - now;
+
+      if (difference <= 0) return;
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const secs = Math.floor((difference % (1000 * 60)) / 1000);
+
+      const dEl = document.getElementById("timer-days");
+      const hEl = document.getElementById("timer-hours");
+      const mEl = document.getElementById("timer-mins");
+      const sEl = document.getElementById("timer-secs");
+
+      if (dEl) dEl.innerText = String(days).padStart(2, "0");
+      if (hEl) hEl.innerText = String(hours).padStart(2, "0");
+      if (mEl) mEl.innerText = String(mins).padStart(2, "0");
+      if (sEl) sEl.innerText = String(secs).padStart(2, "0");
+    }
+
+    setInterval(updateTimer, 1000);
+  })();
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-2xl border-b border-outline-variant/30"><div class="lg:col-span-2 pr-0 lg:pr-12"><span class="font-headline-md text-headline-md tracking-tight uppercase text-on-surface block mb-space-xs">Atelier Jastip</span><p class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-space-md">Curated Personal Shopping Suite</p><p class="text-body-md font-body-md text-on-surface-variant max-w-sm mb-space-lg leading-relaxed">Curated luxury shopping concierge connecting discerning collectors in Indonesia with rare releases and flagship exclusives across Tokyo, Seoul, and Paris. Every item is hand-inspected, proof-verified, and carried with white-glove care.</p><div class="flex items-center gap-3 text-secondary text-body-sm font-body-sm"><span class="material-symbols-outlined text-[18px]">verified</span><span>Guaranteed 100% Authentic In-Store Receipts</span></div></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Discovery</h4><ul class="space-y-space-sm text-body-md font-body-md text-on-surface-variant"><li class="hover:text-on-surface transition-colors"><a data-path="shop-drops" href="#">Active Drops</a></li><li class="hover:text-on-surface transition-colors"><a data-path="upcoming-trips" href="#">Tokyo Itinerary &amp; Quota</a></li><li class="hover:text-on-surface transition-colors"><a data-path="upcoming-trips" href="#">Paris Fashion Week Drops</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Baggage &amp; Weight Limits</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Custom Sourcing Request</a></li></ul></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Client Concierge</h4><ul class="space-y-space-sm text-body-md font-body-md text-on-surface-variant"><li class="hover:text-on-surface transition-colors"><a data-path="track-order" href="#">Order Status &amp; Flight Manifest</a></li><li class="hover:text-on-surface transition-colors"><a href="https://wa.me/" target="_blank">Direct VIP WhatsApp</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Bank Transfer &amp; Settlement</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Paxel Cold Chain &amp; JNE Cargo</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Authenticity Guarantee &amp; Customs</a></li></ul></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Payment &amp; Escrow</h4><p class="text-body-sm font-body-sm text-on-surface-variant mb-space-md">Instant manual check and automated multi-bank verification.</p><div class="flex flex-wrap gap-2 mb-space-lg"><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">BCA</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">BNI</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">CIMB</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">QRIS</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">VISA</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">MASTERCARD</span></div><div class="pt-2 border-t border-outline-variant/30"><a class="font-label-md text-label-md text-secondary hover:text-on-surface transition-colors tracking-wide flex items-center gap-1.5" data-path="owner-login" href="#"><span class="material-symbols-outlined text-[14px]">lock</span><span>Curator Private Gateway</span></a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between text-body-sm font-body-sm text-secondary gap-4"><p>© 2025 Atelier Jastip (PT Atelier Kurasi Internasional). Jakarta — Tokyo — Paris. All rights reserved.</p><div class="flex items-center gap-6 font-label-md text-label-md uppercase tracking-wider"><a class="hover:text-on-surface transition-colors" href="#">Terms of Sourcing</a><a class="hover:text-on-surface transition-colors" href="#">Customs Declaration</a><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a></div></div></div></footer></body></html>

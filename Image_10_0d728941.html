@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Atelier Jastip — Curated Personal Shopper</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface":"#fbf9f8","on-primary-fixed":"#1c1b1b","on-secondary-fixed":"#1e1b15","surface-container-high":"#eae8e7","secondary":"#625e56","on-surface":"#1b1c1c","inverse-on-surface":"#f2f0f0","error-container":"#ffdad6","surface-dim":"#dbd9d9","tertiary-container":"#370e00","surface-container-low":"#f5f3f3","on-background":"#1b1c1c","secondary-fixed":"#e9e2d7","inverse-primary":"#c8c6c5","surface-container-highest":"#e4e2e2","primary-fixed-dim":"#c8c6c5","tertiary-fixed":"#ffdbce","surface-container":"#efeded","on-primary-container":"#858383","on-tertiary":"#ffffff","on-tertiary-container":"#c06e4c","background":"#fbf9f8","tertiary":"#000000","secondary-fixed-dim":"#ccc6bc","outline":"#747878","on-error-container":"#93000a","on-tertiary-fixed-variant":"#753416","on-secondary":"#ffffff","inverse-surface":"#303030","primary-fixed":"#e5e2e1","on-tertiary-fixed":"#370e00","surface-container-lowest":"#ffffff","surface-tint":"#5f5e5e","secondary-container":"#e9e2d7","on-primary-fixed-variant":"#474746","on-secondary-fixed-variant":"#4a463f","surface-bright":"#fbf9f8","surface-variant":"#e4e2e2","on-error":"#ffffff","on-surface-variant":"#444748","primary-container":"#1c1b1b","on-primary":"#ffffff","error":"#ba1a1a","outline-variant":"#c4c7c7","primary":"#000000","on-secondary-container":"#68645c","tertiary-fixed-dim":"#ffb598"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-3xl":"4.5rem","gutter-sm":"1rem","space-2xl":"3rem","margin-sm":"1rem","gutter-lg":"2rem","space-2xs":"0.25rem","margin-lg":"3.5rem","margin":"2rem","space-lg":"1.5rem","space-xl":"2rem","gutter":"1.5rem","space-sm":"0.75rem","space-md":"1rem","space-xs":"0.5rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"headline-md":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"metric-number":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"title-md":["Plus Jakarta Sans"]},"fontSize":{"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"500"}],"label-lg":["13px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"600"}],"metric-number":["32px",{"lineHeight":"38px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"title-lg":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"500"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50"><div class="bg-surface-container-high text-on-surface text-body-sm font-body-sm px-4 lg:px-12 py-2 flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap"><span class="material-symbols-outlined text-secondary text-[16px]">flight_takeoff</span><span class="tracking-wide text-secondary"><strong class="text-on-surface font-semibold">Tokyo Spring Batch 04:</strong> Pre-orders close in 2 days (Mar 26) • Free Shipping above Rp 1.500.000</span></div><div class="flex items-center gap-6 shrink-0"><a class="flex items-center gap-1.5 text-secondary hover:text-on-surface transition-colors" href="https://wa.me/" target="_blank"><span class="material-symbols-outlined text-[15px]">chat</span><span>WhatsApp Concierge</span></a><div class="hidden sm:flex items-center gap-1 text-secondary pl-4 border-l border-outline-variant/30"><span class="text-on-surface font-semibold">IDR (Rp)</span><span class="material-symbols-outlined text-[14px]">expand_more</span></div><a class="hidden md:flex items-center gap-1 text-on-tertiary-container hover:underline font-label-md text-label-md tracking-wider uppercase pl-3" data-path="owner-login" href="#">Owner Suite ↗</a></div></div><div class="h-20 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] px-4 lg:px-12"><div class="max-w-7xl mx-auto h-full flex items-center justify-between gap-6"><a class="flex flex-col text-left group" data-path="home" href="#"><span class="font-headline-md text-headline-md tracking-tight uppercase text-on-surface group-hover:text-secondary transition-colors">Atelier Jastip</span><span class="font-label-md text-label-md tracking-wider uppercase text-secondary">Curated Personal Shopper • Tokyo &amp; Paris</span></a><nav class="hidden xl:flex items-center gap-8" data-active-classes="text-on-surface font-semibold"><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="tracking-wider uppercase transition-colors text-on-surface font-semibold" data-path="shop-drops" href="#">Shop Drops</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="upcoming-trips" href="#">Upcoming Trips</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-jastip-works" href="#">How Jastip Works</a><a class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface-variant hover:text-on-surface transition-colors" data-path="track-order" href="#">Track Order</a></nav><div class="flex items-center gap-3 md:gap-4"><button aria-label="Search" class="w-9 h-9 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><button aria-label="Wishlist" class="relative w-9 h-9 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-on-tertiary-container"></span></button><a class="flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-surface-container-high hover:bg-secondary-container transition-colors text-on-surface" data-path="cart" href="#"><span class="material-symbols-outlined text-[18px]">shopping_bag</span><span class="font-label-md text-label-md tracking-wide">Cart (2) • Rp 3.450.000</span></a><a aria-label="Sign In" class="hidden sm:flex items-center" data-path="login" href="#"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></a></div></div></div></header><main class="w-full pt-28 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Progress & Trip Operational Bar -->
+<div class="w-full bg-surface-container-high/70 backdrop-blur-sm px-4 lg:px-12 py-3 shadow-sm">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-secondary font-label-md text-label-md tracking-wider uppercase">
+<div class="flex items-center gap-3">
+<span class="inline-flex items-center justify-center w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="text-on-surface font-semibold tracking-normal normal-case font-body-sm text-body-sm">
+          Tokyo Batch 04 Sourcing Active
+        </span>
+<span class="text-secondary/50">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm normal-case">Pre-orders close <strong class="text-on-surface font-semibold">Mar 26, 23:59 WIB</strong></span>
+<span class="text-secondary/50">•</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm normal-case">Hand-carry Flight Landing: <strong class="text-on-surface font-semibold">Apr 02 (CGK T3)</strong></span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant normal-case font-body-sm text-body-sm">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-secondary">luggage</span> Baggage Quota: <strong class="text-on-surface">68% Filled</strong></span>
+<div class="w-24 h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 68%;"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-4 lg:px-12 py-8 lg:py-12 w-full">
+<!-- Breadcrumb & Header Section -->
+<div class="mb-10 lg:mb-12">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 font-label-md text-label-md uppercase tracking-wider text-secondary mb-4">
+<a class="hover:text-on-surface transition-colors" href="#">Home</a>
+<span class="text-secondary/40">/</span>
+<a class="hover:text-on-surface transition-colors" href="#">Shop Drops</a>
+<span class="text-secondary/40">/</span>
+<span class="text-on-surface font-semibold">Tokyo Spring Batch 04</span>
+</nav>
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-8">
+<div class="max-w-3xl">
+<span class="font-label-lg text-label-lg uppercase tracking-widest text-on-tertiary-container font-semibold block mb-2">Curated Personal Shopper Flight Catalog</span>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-on-surface font-normal tracking-tight">The Tokyo Catalog</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-3 leading-relaxed max-w-2xl">
+            Curated beauty cult hits, Ginza boutique masterworks, and seasonal confectionery hand-sourced across Tokyo flagships. Available for hand-carry allocation until March 26.
+          </p>
+</div>
+<!-- Quick Manifest Stats Card -->
+<div class="flex items-center gap-4 bg-surface-container-low p-4 rounded-xl shadow-sm">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase text-secondary">Flight Manifest</span>
+<span class="font-title-lg text-title-lg text-on-surface font-bold tracking-tight">JL 729 HND—CGK</span>
+<span class="font-body-sm text-body-sm text-secondary">Checked Cargo + Temperature Box</span>
+</div>
+<div class="h-10 w-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[20px]">airlines</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Layout Split: Left Filter Controls & Right Main Catalog -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+<!-- LEFT FILTER SIDEBAR -->
+<aside class="lg:col-span-3 space-y-6">
+<div class="bg-surface-container-low rounded-xl p-5 shadow-sm space-y-6">
+<div class="flex items-center justify-between pb-3">
+<h3 class="font-title-md text-title-md text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">tune</span>
+              Sourcing Filters
+            </h3>
+<button class="font-label-md text-label-md text-secondary hover:text-on-surface uppercase tracking-wider transition-colors" id="resetAllFilters">Reset</button>
+</div>
+<!-- Trip Batch Selector -->
+<div class="space-y-2.5">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold block">Trip Batch</label>
+<div class="space-y-1.5 font-body-sm text-body-sm">
+<label class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest text-on-surface font-medium shadow-xs cursor-pointer">
+<span class="flex items-center gap-2">
+<input checked="" class="accent-primary" name="batch" type="radio"/>
+                  Tokyo Spring 2025
+                </span>
+<span class="font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed px-1.5 py-0.5 rounded">34 items</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container text-on-surface-variant cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="accent-primary" name="batch" type="radio"/>
+                  Ready Stock Jakarta
+                </span>
+<span class="text-secondary font-label-md text-label-md">8 items</span>
+</label>
+<label class="flex items-center justify-between p-2 rounded-lg hover:bg-surface-container text-on-surface-variant cursor-pointer transition-colors opacity-70">
+<span class="flex items-center gap-2">
+<input class="accent-primary" disabled="" name="batch" type="radio"/>
+                  Paris PFW Archive
+                </span>
+<span class="text-secondary font-label-md text-label-md">Closed</span>
+</label>
+</div>
+</div>
+<!-- Sourcing Category -->
+<div class="space-y-2.5 pt-3">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold block">Sourcing Category</label>
+<div class="space-y-1 font-body-sm text-body-sm">
+<button class="w-full flex items-center justify-between py-1.5 px-2 rounded-lg bg-surface-container text-on-surface font-medium text-left">
+<span>All Curations</span>
+<span class="text-secondary font-label-md text-label-md">34</span>
+</button>
+<button class="w-full flex items-center justify-between py-1.5 px-2 rounded-lg text-on-surface-variant hover:bg-surface-container/60 hover:text-on-surface text-left transition-colors">
+<span>Beauty &amp; J-Skincare</span>
+<span class="text-secondary font-label-md text-label-md">14</span>
+</button>
+<button class="w-full flex items-center justify-between py-1.5 px-2 rounded-lg text-on-surface-variant hover:bg-surface-container/60 hover:text-on-surface text-left transition-colors">
+<span>Luxury &amp; Designer Bags</span>
+<span class="text-secondary font-label-md text-label-md">8</span>
+</button>
+<button class="w-full flex items-center justify-between py-1.5 px-2 rounded-lg text-on-surface-variant hover:bg-surface-container/60 hover:text-on-surface text-left transition-colors">
+<span>Specialty Snacks &amp; Tea</span>
+<span class="text-secondary font-label-md text-label-md">7</span>
+</button>
+<button class="w-full flex items-center justify-between py-1.5 px-2 rounded-lg text-on-surface-variant hover:bg-surface-container/60 hover:text-on-surface text-left transition-colors">
+<span>Lifestyle &amp; Collectibles</span>
+<span class="text-secondary font-label-md text-label-md">5</span>
+</button>
+</div>
+</div>
+<!-- Luggage Weight / Form Factor -->
+<div class="space-y-2.5 pt-3">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold block">Luggage &amp; Form Factor</label>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<label class="flex items-center gap-2 cursor-pointer">
+<input checked="" class="rounded accent-primary text-primary" type="checkbox"/>
+<span>Under 0.5 kg (Easy Cabin)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="rounded accent-primary text-primary" type="checkbox"/>
+<span>Bulky / Boxed (Limited slots)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="rounded accent-primary text-primary" type="checkbox"/>
+<span>Liquid / Fragrance (Strict Limit)</span>
+</label>
+</div>
+</div>
+<!-- Price Range Slider -->
+<div class="space-y-2.5 pt-3">
+<div class="flex items-center justify-between">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold">Budget Range (IDR)</label>
+<span class="font-label-md text-label-md text-secondary" id="priceLabel">Up to 7.5M</span>
+</div>
+<input class="w-full accent-primary bg-surface-container-highest h-1 rounded-lg appearance-none cursor-pointer" id="priceRange" max="15000000" min="100000" step="250000" type="range" value="7500000"/>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-secondary pt-1">
+<span>Rp 100 rb</span>
+<span>Rp 15.0 jt</span>
+</div>
+</div>
+<!-- Availability Status -->
+<div class="space-y-2.5 pt-3">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold block">Luggage Quota Status</label>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<label class="flex items-center gap-2 cursor-pointer">
+<input checked="" class="rounded accent-primary text-primary" type="checkbox"/>
+<span class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+                  Open for PO
+                </span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer">
+<input checked="" class="rounded accent-primary text-primary" type="checkbox"/>
+<span class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+                  Quota Low (&lt;3 slots left)
+                </span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="rounded accent-primary text-primary" type="checkbox"/>
+<span>Ready Stock Jakarta</span>
+</label>
+</div>
+</div>
+<!-- Sourcing District -->
+<div class="space-y-2.5 pt-3">
+<label class="font-label-md text-label-md uppercase tracking-wider text-secondary font-semibold block">Boutique Districts</label>
+<div class="flex flex-wrap gap-1.5">
+<button class="px-2.5 py-1 rounded-md text-label-md font-label-md bg-surface-container-highest text-on-surface hover:bg-surface-container-high transition-colors">Ginza</button>
+<button class="px-2.5 py-1 rounded-md text-label-md font-label-md bg-surface-container-highest text-on-surface hover:bg-surface-container-high transition-colors">Harajuku</button>
+<button class="px-2.5 py-1 rounded-md text-label-md font-label-md bg-surface-container-highest text-on-surface hover:bg-surface-container-high transition-colors">Omotesando</button>
+<button class="px-2.5 py-1 rounded-md text-label-md font-label-md bg-surface-container text-secondary hover:text-on-surface transition-colors">Matsumoto Kiyoshi</button>
+<button class="px-2.5 py-1 rounded-md text-label-md font-label-md bg-surface-container text-secondary hover:text-on-surface transition-colors">Haneda Duty-Free</button>
+</div>
+</div>
+<!-- Sourcing Assurance Pill -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-[20px] text-on-tertiary-container shrink-0">inventory_2</span>
+<div>
+<p class="font-label-md text-label-md uppercase text-on-surface font-semibold tracking-wider">Proof of Sourcing</p>
+<p class="font-body-sm text-body-sm text-secondary mt-0.5">Physical store receipt + bag video included with each dispatch.</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- RIGHT MAIN CATALOG AREA -->
+<section class="lg:col-span-9 flex flex-col gap-6">
+<!-- Search and Sort Controls -->
+<div class="bg-surface-container-low p-4 rounded-xl shadow-sm flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-secondary text-[20px]">search</span>
+<input class="w-full h-11 pl-11 pr-4 rounded-md bg-surface-container-lowest text-on-surface font-body-md text-body-md placeholder:text-secondary/60 focus:outline-none shadow-xs" placeholder="Search by Japanese product name, brand (e.g. Issey Miyake), or SKU..." type="text"/>
+</div>
+<div class="flex items-center justify-between md:justify-end gap-3 shrink-0">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-wider">
+<span>Sort:</span>
+<select class="h-11 px-3.5 rounded-md bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none cursor-pointer shadow-xs">
+<option>Featured Releases</option>
+<option>Quota Remaining: Low to High</option>
+<option>Price: Low to High</option>
+<option>Price: High to Low</option>
+<option>Newest Additions</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Active Filter Badges Bar -->
+<div class="flex flex-wrap items-center justify-between gap-3 px-1">
+<div class="flex flex-wrap items-center gap-2">
+<span class="font-body-sm text-body-sm text-secondary">Active Filters:</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md shadow-xs">
+              Tokyo Spring Batch
+              <button aria-label="Remove filter" class="material-symbols-outlined text-[14px] hover:text-on-tertiary-container">close</button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md shadow-xs">
+              Under 0.5 kg
+              <button aria-label="Remove filter" class="material-symbols-outlined text-[14px] hover:text-on-tertiary-container">close</button>
+</span>
+<button class="font-label-md text-label-md uppercase tracking-wider text-on-tertiary-container hover:underline ml-1">
+              Clear All
+            </button>
+</div>
+<div class="font-body-sm text-body-sm text-secondary">
+            Showing <strong class="text-on-surface font-semibold">9</strong> of <strong class="text-on-surface font-semibold">34</strong> curated drops
+          </div>
+</div>
+<!-- PRODUCT GRID (9 Bespoke Luxury Personal Shopping Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+<!-- Card 1: Issey Miyake Bao Bao -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Editorial product still life of authentic Issey Miyake Bao Bao Lucent Matte 6x6 Tote bag in chalk white against natural stone surface, soft warm natural sunlight, Japanese minimalist luxury styling, clean aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFByWdOpgfbdD7oB5t31vhbxQINXMKrOmUuADUyvDm3bWmqjr-p0vynpMjYNlAuz7PIL1Ze5b8f_XdC6typpwzOXvQNBO0Pa-Vnee86jxMRwQrdlkTRhUKd2UmC3i07Ie1V1A_jBWPXo38ueguoX13uwHhhh5Z78GKyDX3RpS6JQ08w1VeqI9VH3M8gxkiSj4PwW69_YT7CUEQnLURoAbu90q8HKqvwshlmf_n2A15qdSphk0etgtHSg"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Ginza Flagship
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md tracking-wide">
+                  3 slots remaining
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Issey Miyake</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.35 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Bao Bao Lucent Matte 6x6 Tote
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Includes boutique dustbag &amp; Ginza store guarantee slip.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 6.850.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥58,000 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 2: SK-II Pitera Essence -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Luxury skincare product photography of SK-II Pitera Facial Treatment Essence 230ml glass bottle resting on frosted glass with subtle water droplets, soft warm ambient lighting, high-end cosmetic advertisement style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMpe-TSKuXCKpOfbGhcOyCwoERkUNVn1mTAAryEk9ZZUaBTmhmkg8CbNJJkXGAQq1Vse2Tkhfi41_IVlpHHsczZU6dqfin10qWl3vhL4RblqOByDEq7W3V3CNjUC_vReqjB8WoIzSntoMXhwhu6uhta-3MuHxYOqKicwM0ARGd-CumgKK-ETML3G_EVJNJ7tsWl9k0KYzgD9KFUJibjmYTProUPPrTkpwZohT35qjlBBt_S3W-LrMUdw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Duty Free Haneda
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wide">
+                  5 slots remaining
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>SK-II Japan</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.48 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Pitera Facial Treatment Essence 230ml
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Sealed Haneda T3 DFS batch with tax-exempt receipt.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 2.950.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥24,200 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 3: Shiseido Fino Hair Mask -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Macro close-up photo of Shiseido Fino Premium Touch Hair Mask metallic red tub container on polished warm travertine marble surface, delicate botanical shadows, premium pharmacy beauty style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD54cbkIkITwdAOF-1TmURFQ4zZ__RA1nUMGIWTZn7_uwQWcCPVX_H2wlIn_1_ttBGHpgHtEN4lPODIwbeOIOcFQCO-UZpK6X9nafcxrY15tfBvgGKomNIIz6xL_Fz-c34iyHj8r3EWoq7JYgVv8380v1wkqr7EkEtXZvMhWSaz0CYf0sV0NXuTrgBRstAQ77MPA7Tpfz40U41npUqS9bIb87pqlgoLCFJTc0WoQBnyBnrqoN8m0GhGxw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Pharmacy Cult Hit
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wide">
+                  18/25 slots booked
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Shiseido</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.28 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Fino Premium Touch Hair Mask 230g
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Matsumoto Kiyoshi Shibuya fresh stock purchase.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 185.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥980 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">Quick PO</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 4: Tokyo Banana -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Artisan food still life of Grapestone Tokyo Banana Limited Edition gift box with ribbon next to delicate porcelain plate, warm afternoon lighting, Japanese souvenir packaging elegance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaQxSF6T5XM67zkol-nrFKY8XY1RlMTiFJGEGMZEn1L6wg7k7Q3CXgkm1G1QmCcW-9W2IYbeUj0IzU6C8bPJ2tGb1UL6rmyu5DkFem-ArnJi3eIS3m6Q2QeIKFQ6m15Rt_rcfL_2XeU2SmRrTCi0C5U9C1wgGCsa2SQHRowLndRKn5hxqgBi5Zs1MgThKJp-LnRiLOjcr0QBsWuLZ9YZRwRSRsAuRunOKuZnTWvtMidiCcM1qDVlOTBw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Station Exclusive
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md tracking-wide">
+                  Full Quota Reached
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Grapestone Tokyo</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.45 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Tokyo Banana Limited Edition 8pcs
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Tokyo Station First Avenue flagship. Guaranteed 10-day shelf life.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 245.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥1,296 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">Cold-Pack</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-surface-container-highest text-secondary font-label-lg text-label-lg uppercase tracking-wider cursor-not-allowed flex items-center justify-center gap-2" disabled="">
+<span class="material-symbols-outlined text-[16px]">lock_clock</span>
+                Waitlist Only
+              </button>
+</div>
+</article>
+<!-- Card 5: Human Made Tee -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Editorial lookbook flat lay of Human Made white slub cotton tee with red heart logo #2311 neatly folded on untreated wood desk, minimalist warm Tokyo streetwear vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxQQhM8jxP4dD6WYVE66ltf4WHlMYZwLevPqD3M8_89hykyr2pUoMrcJJmr1DrWUWFQpVF9DQ587-IljOpWUjXBASeZHEWYj5001X7IccEwSOWe-TJrMMNzqCGJHvlfx21iuw72kUh2SpQ0uO82vTqprL9C96OsiuY8aaEPFZXSyBWH981tPaswItuT8iWmRee-1ReXjyFQFSjyhWarmBtHTvnlQ2LbH0QGAuo1l8LyfvVX8_w2ARhYg"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Harajuku Flagship
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wide">
+                  4 slots remaining
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Human Made</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.24 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Heart Logo Slub Tee #2311 White
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Purchased directly from Harajuku store with printed receipt.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 1.450.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥10,780 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 6: Le Labo Gaiac 10 -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Atmospheric still life of Le Labo Gaiac 10 Tokyo City Exclusive glass perfume bottle with personalized typed label, set on textured paper and cedar block, amber light and subtle shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRuepYlixJHU5uoe5JS4GcdQgjOmaucW3u_x4WeZBsmMtbpidoCcCN9mKFz5klBIZNcr1q1j9_73pmbuO_ep0cFG8f80qejLXBwtfVQOIoe3JBq_4_C16HpqFurI6dmlR8m0EHxJC4q2R2IfvH44PXd8eiCiqScEbUupXGvdBrgr0TcyjhrTUw0sxkPVvS1-Qfwl6y8ayDnDVKTxQHzXj6NZfWaOBqRzRJiy9908IuLyvxHsM4YakdsQ"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Rare Find
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md tracking-wide">
+                  Almost Full (2 left)
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Le Labo Tokyo</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.32 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Gaiac 10 Tokyo City Exclusive 50ml
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Daikanyama lab formulation with custom name personalization.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 5.200.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥45,100 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 7: Rohto Melano CC -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Crisp studio photo of silver and yellow tube of Rohto Melano CC Intensive Anti-Spot Essence next to fresh citrus slice and natural stone background, clean bright Japanese skincare aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWqg4h3XknrkstQbUrLG7W9kR702M4ODKVRzooLSfnVnH0RV-3CVF7vLe8L9s08Vtnko9yKMWFUdeZ6vWbvj5MsP7O2kHMJg2cgyQBj7cLZmWrQItUGPFin-B_-AHpLXbtzFLujjDl2UsiF-SYLIEIlQ6ywxNg2k_Tz_Kl4cjxthlyNkhQfJH8naRDm-VAON7OtoW2xNm43l85Q_Jzi187uRnhu0cQzxva8YBoscY1rNfaa6pbTqf-pQ"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Ready Stock Jakarta
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wide">
+                  Direct Dispatch
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Rohto Mentholatum</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.08 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Melano CC Intensive Anti-Spot Essence 20ml
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">In Jakarta hub warehouse. Dispatched within 24 hours.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 165.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥900 equivalent</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">Ready</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">local_shipping</span>
+                Ship Today
+              </button>
+</div>
+</article>
+<!-- Card 8: Porter Yoshida Tanker -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Editorial product shot of Porter Yoshida &amp; Co Tanker 2-Way Waist Bag in black nylon twill with signature rescue orange interior peek, studio warm backlight, Japanese craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1j8rNpjh7j6MW6I9kdLOpxqzmQQWvHXrH5yArB380c6G6kem8FNYo49SS6lAk2D6CZcdIOIFEsPDMMei6j8vRsvp0UP-4NDYNHRo3j574GQ2DUrjYey4wEJ_C4Bbp8hm_ui32bOAJlQUmrivS5UgiZ9E8pEm14dQoSaejAyousTd8q3w6hM-EQ1VG9bKY6XcoHD2flw3s0OorMb9H-Ux6HwsbFqYqz-mfAtkm3JNuTLd3ndqR7afurw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Omotesando
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md tracking-wide">
+                  2 slots remaining
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Yoshida &amp; Co.</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.52 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Porter Tanker 2-Way Waist Bag Black
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Omotesando Porter Stand release with official dust cover.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 4.250.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥36,300 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+<!-- Card 9: Ippodo Matcha Kit -->
+<article class="group bg-surface-container-low rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative w-full aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Traditional Japanese tea ceremony still life: Ippodo Tea matcha tin, handcrafted bamboo whisk chasen, and handmade ceramic chawan bowl on woven tatami mat, soft natural Zen lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-sbrwoivjDKQVOSBmVHXYyJVXkSvBeuX5i2GcRw-33TJ4ot1KxMOgVCT7fzoH9cn-9jBJSJtKY54hqdgKO9Q8e9wFt-eJn3IVNj2Y1thRyaZx5pAu5_lq3Q7syIGZm-Zzcq_zAMHWHn1IHCElGKqlus1LeFzxilmHY3Bn6zgX6lJaKa26XNqazD8MH27zuhYhsAfb8_IEoWomLXhLn_D07pm3CWJEUjv8pJZOI4FSI-TAmCRDiQcogg"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface/90 backdrop-blur-md text-on-surface font-label-md text-label-md uppercase tracking-wider shadow-xs">
+                  Kyoto Craft
+                </span>
+<span class="absolute bottom-3 left-3 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md tracking-wide">
+                  6 slots remaining
+                </span>
+</div>
+<div class="p-5">
+<div class="flex items-center justify-between text-secondary font-label-md text-label-md uppercase tracking-wider mb-1.5">
+<span>Ippodo Tea Co.</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">scale</span> 0.40 kg</span>
+</div>
+<h2 class="font-title-md text-title-md text-on-surface line-clamp-1 group-hover:text-secondary transition-colors">
+                  Matcha Starter Kit (Chasen + Powder)
+                </h2>
+<p class="font-body-sm text-body-sm text-secondary mt-1">Marunouchi Tokyo tea house freshly sealed ceremonial batch.</p>
+<div class="mt-4 flex items-baseline justify-between pt-3">
+<div>
+<span class="font-title-lg text-title-lg font-bold text-on-surface block tracking-tight">Rp 1.450.000</span>
+<span class="font-body-sm text-body-sm text-secondary font-mono">¥11,000 in-store</span>
+</div>
+<span class="text-label-md font-label-md text-secondary uppercase">All-in CGK</span>
+</div>
+</div>
+</div>
+<div class="p-5 pt-0">
+<button class="w-full py-2.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg uppercase tracking-wider hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">keyboard_double_arrow_left</span>
+                Reserve Slot
+              </button>
+</div>
+</article>
+</div>
+<!-- Pagination Bar -->
+<nav aria-label="Catalog Pagination" class="mt-8 flex items-center justify-between bg-surface-container-low p-4 rounded-xl shadow-sm">
+<button class="flex items-center gap-1.5 text-secondary hover:text-on-surface font-label-md text-label-md uppercase tracking-wider px-3 py-1.5 rounded-md hover:bg-surface-container transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+            Previous
+          </button>
+<div class="flex items-center gap-1 font-label-md text-label-md">
+<span class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold">1</span>
+<button class="w-8 h-8 rounded-full text-secondary hover:bg-surface-container flex items-center justify-center transition-colors">2</button>
+<button class="w-8 h-8 rounded-full text-secondary hover:bg-surface-container flex items-center justify-center transition-colors">3</button>
+<span class="text-secondary px-1">…</span>
+<button class="w-8 h-8 rounded-full text-secondary hover:bg-surface-container flex items-center justify-center transition-colors">4</button>
+</div>
+<button class="flex items-center gap-1.5 text-on-surface hover:text-secondary font-label-md text-label-md uppercase tracking-wider px-3 py-1.5 rounded-md hover:bg-surface-container transition-colors">
+            Next
+            <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</nav>
+</section>
+</div>
+<!-- BOTTOM ASSISTANCE BANNER (Custom Sourcing Request) -->
+<section class="mt-16 lg:mt-20 bg-primary text-on-primary rounded-xl p-8 lg:p-12 shadow-md relative overflow-hidden">
+<!-- Subtle Decorative Accent Background -->
+<div class="absolute -right-12 -bottom-12 w-64 h-64 rounded-full bg-surface-container-highest/10 pointer-events-none"></div>
+<div class="relative z-10 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+<div class="space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-highest/20 font-label-md text-label-md uppercase tracking-widest text-primary-fixed">
+<span class="material-symbols-outlined text-[14px]">link</span>
+            Direct Store Sourcing
+          </div>
+<h2 class="font-headline-md text-headline-md font-headline-sm text-on-primary">
+            Can’t find the exact Japanese or boutique item you want?
+          </h2>
+<p class="font-body-md text-body-md text-primary-fixed max-w-xl leading-relaxed">
+            Send us any link from Rakuten, Mercari, Shibuya Parco, or local Ginza shops. Our team calculates the exact JPY to IDR conversion, tax, and hand-carry luggage fee within 15 minutes.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
+<a class="w-full sm:w-auto px-6 py-3.5 rounded-full bg-surface text-on-surface hover:bg-surface-container font-label-lg text-label-lg uppercase tracking-wider transition-colors flex items-center justify-center gap-2.5 shadow-sm" href="https://wa.me/" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-on-tertiary-container">chat</span>
+            Submit via WhatsApp
+          </a>
+<button class="w-full sm:w-auto px-6 py-3.5 rounded-full bg-surface-container-highest/20 hover:bg-surface-container-highest/30 text-on-primary font-label-lg text-label-lg uppercase tracking-wider transition-colors flex items-center justify-center gap-2" id="openCustomModal">
+<span class="material-symbols-outlined text-[18px]">add_link</span>
+            Quick URL Paste
+          </button>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>
+  // Price Range Slider Interactive Label
+  const priceRange = document.getElementById('priceRange');
+  const priceLabel = document.getElementById('priceLabel');
+  
+  if (priceRange && priceLabel) {
+    priceRange.addEventListener('input', (e) => {
+      const val = parseInt(e.target.value, 10);
+      if (val >= 1000000) {
+        priceLabel.textContent = `Up to ${(val / 1000000).toFixed(1)}M`;
+      } else {
+        priceLabel.textContent = `Up to ${(val / 1000).toFixed(0)}k`;
+      }
+    });
+  }
+
+  // Reset Filters Demo Action
+  const resetBtn = document.getElementById('resetAllFilters');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (priceRange && priceLabel) {
+        priceRange.value = 15000000;
+        priceLabel.textContent = 'Up to 15.0M';
+      }
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-3xl shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-2xl border-b border-outline-variant/30"><div class="lg:col-span-2 pr-0 lg:pr-12"><span class="font-headline-md text-headline-md tracking-tight uppercase text-on-surface block mb-space-xs">Atelier Jastip</span><p class="font-label-md text-label-md uppercase tracking-widest text-secondary mb-space-md">Curated Personal Shopping Suite</p><p class="text-body-md font-body-md text-on-surface-variant max-w-sm mb-space-lg leading-relaxed">Curated luxury shopping concierge connecting discerning collectors in Indonesia with rare releases and flagship exclusives across Tokyo, Seoul, and Paris. Every item is hand-inspected, proof-verified, and carried with white-glove care.</p><div class="flex items-center gap-3 text-secondary text-body-sm font-body-sm"><span class="material-symbols-outlined text-[18px]">verified</span><span>Guaranteed 100% Authentic In-Store Receipts</span></div></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Discovery</h4><ul class="space-y-space-sm text-body-md font-body-md text-on-surface-variant"><li class="hover:text-on-surface transition-colors"><a data-path="shop-drops" href="#">Active Drops</a></li><li class="hover:text-on-surface transition-colors"><a data-path="upcoming-trips" href="#">Tokyo Itinerary &amp; Quota</a></li><li class="hover:text-on-surface transition-colors"><a data-path="upcoming-trips" href="#">Paris Fashion Week Drops</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Baggage &amp; Weight Limits</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Custom Sourcing Request</a></li></ul></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Client Concierge</h4><ul class="space-y-space-sm text-body-md font-body-md text-on-surface-variant"><li class="hover:text-on-surface transition-colors"><a data-path="track-order" href="#">Order Status &amp; Flight Manifest</a></li><li class="hover:text-on-surface transition-colors"><a href="https://wa.me/" target="_blank">Direct VIP WhatsApp</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Bank Transfer &amp; Settlement</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Paxel Cold Chain &amp; JNE Cargo</a></li><li class="hover:text-on-surface transition-colors"><a data-path="how-jastip-works" href="#">Authenticity Guarantee &amp; Customs</a></li></ul></div><div><h4 class="font-label-lg text-label-lg tracking-wider uppercase text-on-surface mb-space-md font-semibold">Payment &amp; Escrow</h4><p class="text-body-sm font-body-sm text-on-surface-variant mb-space-md">Instant manual check and automated multi-bank verification.</p><div class="flex flex-wrap gap-2 mb-space-lg"><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">BCA</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">BNI</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">CIMB</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">QRIS</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">VISA</span><span class="px-2.5 py-1 text-label-md font-label-md rounded bg-surface-container-lowest text-on-surface shadow-sm">MASTERCARD</span></div><div class="pt-2 border-t border-outline-variant/30"><a class="font-label-md text-label-md text-secondary hover:text-on-surface transition-colors tracking-wide flex items-center gap-1.5" data-path="owner-login" href="#"><span class="material-symbols-outlined text-[14px]">lock</span><span>Curator Private Gateway</span></a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between text-body-sm font-body-sm text-secondary gap-4"><p>© 2025 Atelier Jastip (PT Atelier Kurasi Internasional). Jakarta — Tokyo — Paris. All rights reserved.</p><div class="flex items-center gap-6 font-label-md text-label-md uppercase tracking-wider"><a class="hover:text-on-surface transition-colors" href="#">Terms of Sourcing</a><a class="hover:text-on-surface transition-colors" href="#">Customs Declaration</a><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a></div></div></div></footer></body></html>

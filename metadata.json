@@ -1,0 +1,7 @@
+{
+  "name": "Atelier Jastip",
+  "description": "Curated personal shopper (jasa titip) e-commerce storefront and single-owner management suite for exclusive international boutique releases.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
